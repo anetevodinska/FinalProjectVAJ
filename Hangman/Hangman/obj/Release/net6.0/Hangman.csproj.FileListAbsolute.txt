@@ -1,0 +1,5 @@
+C:\Users\anete\FinalProjectVAJ\Hangman\Hangman\obj\Release\net6.0\Hangman.csproj.AssemblyReference.cache
+C:\Users\anete\FinalProjectVAJ\Hangman\Hangman\obj\Release\net6.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anete\FinalProjectVAJ\Hangman\Hangman\obj\Release\net6.0\Hangman.AssemblyInfoInputs.cache
+C:\Users\anete\FinalProjectVAJ\Hangman\Hangman\obj\Release\net6.0\Hangman.AssemblyInfo.cs
+C:\Users\anete\FinalProjectVAJ\Hangman\Hangman\obj\Release\net6.0\Hangman.csproj.CoreCompileInputs.cache
