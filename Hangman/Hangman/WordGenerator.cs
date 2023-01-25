@@ -29,6 +29,7 @@ namespace Hangman
         {
             Console.WriteLine("Please enter the word");
             string Word = Console.ReadLine();
+
             return Word;
         }
         /// <summary>
