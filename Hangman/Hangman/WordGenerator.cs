@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Hangman
@@ -28,10 +29,11 @@ namespace Hangman
         {
             Console.WriteLine("Please enter the word");
             string Word = Console.ReadLine();
+
             return Word;
         }
         /// <summary>
-        /// Mrthod get a word from internet
+        /// Method get a word from internet
         /// From https://learn.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
         /// </summary>
         /// <returns>Word from internet</returns>
@@ -53,5 +55,7 @@ namespace Hangman
             return "Error";
         }
     }
+
     
+
 }
