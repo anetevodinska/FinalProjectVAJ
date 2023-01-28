@@ -10,13 +10,13 @@ namespace Hangman
     {
         string[] Image =
         {
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "_/V\\_",
+            "(d_b)",
+            "_/Y\\_",
+            " |I| ",
+            " / |",
+            " | |",
+            "-   -"
         };
 
         public HangmanImage(){}
