@@ -34,6 +34,9 @@ namespace Hangman
                 return;
             }
 
+            Console.Clear();
+
+
             var validCharacters = new Regex("^[a-z]$"); // command which regulates symbols that is valid to use, 
 
             var lives = 7; // general number to define of wrong entries for guess
@@ -41,9 +44,14 @@ namespace Hangman
             var letters = new List<string>();
             //empty array that contains all letters submitted during game
 
+            HangmanImage hangmanImage = new HangmanImage();
 
             while (lives != 0) // loop is valid until word is guessed or chances of guesses have exceeded
             {
+                Console.WriteLine();
+                hangmanImage.Drow(lives);
+                Console.WriteLine();
+
                 var charactersLeft = 0;
                 foreach (var characters in word) // loop for all characters in word, replacing unguessed letter as * 
                                                  //and shows correct place of letter in word
@@ -100,11 +108,6 @@ namespace Hangman
                         // lives are left.
                         Console.WriteLine($"The letter {key} is not in the word. You have {lives} {(lives == 1 ? "try" : "tries")} left.");  
                         // boolean defines correct form of word to use on display
-                    }
-                    if (lives > 0)
-                    {
-                        // loop when there is still lives and word is guessed
-                        Console.WriteLine($"You won ");
                     }
                 }
             }
