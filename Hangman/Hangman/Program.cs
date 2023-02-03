@@ -7,11 +7,11 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Hangman
-{
+{ 
     class Program
     {
        public static void Main(string[] args)
-        {
+       {
             string word;// picks a word for game
 
             Console.WriteLine("choose play option(enter a number)");
@@ -118,12 +118,14 @@ namespace Hangman
                 Console.WriteLine($"You won with {lives} {(lives == 1 ? "life" : "lives")} left!");
             }
             else
-                {
-                    Console.WriteLine($"You lost! The word was {word}.");
-                }
+            {
+               Console.WriteLine($"You lost! The word was {word}.");
             }
+            Console.ReadLine();
         }
     }
+}
+
              
 
 
